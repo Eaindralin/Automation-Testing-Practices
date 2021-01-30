@@ -19,18 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/jquery-dual-list-box-demo.html')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
-    'Isis', true)
+WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add'))
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/input_HRMS_username'), 'haymarkyawwin')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add All'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/form_Sign in'))
 
-WebUI.delay(2)
+WebUI.setEncryptedText(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove All'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/a_Welcome Hay Mar Kyaw Win'))
+
+WebUI.click(findTestObject('Object Repository/HRMS_Web/Login/Page_HRMS/a_Sign out'))
 

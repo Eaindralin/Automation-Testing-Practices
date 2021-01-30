@@ -19,18 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/jquery-dual-list-box-demo.html')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
-    'Isis', true)
+WebUI.setText(findTestObject('HRMS_Web/Company_Location/input_HRMS_username'), 'haymarkyawwin')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add'))
+WebUI.setEncryptedText(findTestObject('HRMS_Web/Company_Location/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add All'))
+WebUI.sendKeys(findTestObject('HRMS_Web/Company_Location/input_HRMS_password'), Keys.chord(Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('HRMS_Web/Company_Location/p_Company locations'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove All'))
+WebUI.click(findTestObject('HRMS_Web/Company_Location/button_New Location'))
+
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('HRMS_Web/Company_Location/input_Name_locationName'), 'Ahtar Oo')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('HRMS_Web/Company_Location/button_Find Me'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('HRMS_Web/Company_Location/button_Save'))
 

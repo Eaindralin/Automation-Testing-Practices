@@ -19,18 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.seleniumeasy.com/test/jquery-dual-list-box-demo.html')
+WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
-    'Isis', true)
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/input_HRMS_username'), 'winthein')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add'))
+WebUI.setEncryptedText(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add All'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/button_Sign in'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/a_Clock in'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/button_Clock in'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove All'))
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/textarea_You appear to be out of office_for_4dbe77'), 
+    'Work from Home')
+
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/button_Confirm'))
+
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/button_Clock out'))
+
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/textarea_You appear to be out of office_for_4dbe77'), 
+    'Work from Home')
+
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_OutOffice/Page_HRMS/button_Confirm'))
 

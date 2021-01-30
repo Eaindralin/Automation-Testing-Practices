@@ -21,16 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/jquery-dual-list-box-demo.html')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
     'Isis', true)
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add'))
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add All'))
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/button_Add All'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/option_Manuela'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/JQueryList/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove All'))
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/option_Manuela'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/select_IsisSophiaAliceIsabellaManuelaLauraL_cf4efb'), 
+    'Manuela', true)
+
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove'))
+
+WebUI.click(findTestObject('Object Repository/SmartBear/DualList_1/Page_Selenium Easy - JQuery Dual List Box Demo/button_Remove All'))
 
