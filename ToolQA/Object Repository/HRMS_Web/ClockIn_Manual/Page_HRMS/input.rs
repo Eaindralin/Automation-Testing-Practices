@@ -3,15 +3,15 @@
    <description></description>
    <name>input</name>
    <tag></tag>
-   <elementGuidId>5b727f54-3aaf-4782-8e52-debfcaa31824</elementGuidId>
+   <elementGuidId>8f6c47a6-c45c-458a-b6e2-9836c7b973bc</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[type=&quot;text&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@type='text']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[type=&quot;text&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -56,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>a9adb0d3c4bc</value>
+      <value>a5bdebfc256b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,14 +70,14 @@
       <matchCondition>equals</matchCondition>
       <name>aria-owns</name>
       <type>Main</type>
-      <value>a9adb0d3c4bc</value>
+      <value>a5bdebfc256b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-activedescendant</name>
       <type>Main</type>
-      <value>a9adb0d3c4bc-0</value>
+      <value>a5bdebfc256b-0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

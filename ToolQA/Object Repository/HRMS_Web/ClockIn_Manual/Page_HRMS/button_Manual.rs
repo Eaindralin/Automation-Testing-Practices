@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Manual</name>
    <tag></tag>
-   <elementGuidId>90789e71-9bf5-4f25-97b9-ff6fa27be5d5</elementGuidId>
+   <elementGuidId>faa4f318-cf82-4fb4-82d0-3efd4198916c</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock out'])[1]/following::button[1]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-secondary.btn-block</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock in'])[2]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -63,14 +63,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock in'])[2]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clock out'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[5]/following::button[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View log'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

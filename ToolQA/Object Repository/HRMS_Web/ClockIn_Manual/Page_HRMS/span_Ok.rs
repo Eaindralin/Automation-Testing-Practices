@@ -3,15 +3,15 @@
    <description></description>
    <name>span_Ok</name>
    <tag></tag>
-   <elementGuidId>21a39799-ff70-4774-9572-bba6af12fcb2</elementGuidId>
+   <elementGuidId>dfa7933e-f91b-4e97-9ac1-63e57f7a4e1e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

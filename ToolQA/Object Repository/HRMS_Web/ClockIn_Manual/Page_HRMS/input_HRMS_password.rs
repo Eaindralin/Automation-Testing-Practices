@@ -3,15 +3,15 @@
    <description></description>
    <name>input_HRMS_password</name>
    <tag></tag>
-   <elementGuidId>8caf1f2a-1149-4d86-b6cf-0c9c1556923a</elementGuidId>
+   <elementGuidId>5798600a-929a-4e9f-afc6-e3bc00c7a444</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;password&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

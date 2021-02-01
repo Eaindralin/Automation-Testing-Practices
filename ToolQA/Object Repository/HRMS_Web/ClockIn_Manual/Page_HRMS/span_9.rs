@@ -3,15 +3,15 @@
    <description></description>
    <name>span_9</name>
    <tag></tag>
-   <elementGuidId>5aa38cee-481d-4a1e-9f58-e449ea9317a8</elementGuidId>
+   <elementGuidId>f2677955-0d04-457f-8b1c-0c774b5cb8d3</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='PM'])[1]/following::span[9]</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[9]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

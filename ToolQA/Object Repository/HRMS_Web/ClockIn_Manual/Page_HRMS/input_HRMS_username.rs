@@ -3,15 +3,15 @@
    <description></description>
    <name>input_HRMS_username</name>
    <tag></tag>
-   <elementGuidId>f1979937-d6f6-4005-9973-5ae763b1858b</elementGuidId>
+   <elementGuidId>2fc54c04-eefb-4e19-ac5e-e4d22784632a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;username&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@name='username']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;username&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

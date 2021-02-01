@@ -3,15 +3,15 @@
    <description></description>
    <name>button_AM</name>
    <tag></tag>
-   <elementGuidId>9df27e26-dd42-4a93-887a-16c8c9077711</elementGuidId>
+   <elementGuidId>4c2ec222-1215-4220-b3dc-d0d60dd9885c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.timepicker-dial__item.timepicker-period__btn</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.timepicker-dial__item.timepicker-period__btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -70,7 +70,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[6]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

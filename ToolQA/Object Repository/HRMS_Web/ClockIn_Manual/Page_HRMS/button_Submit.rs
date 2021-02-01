@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>6946cb56-bfe2-4046-85ad-95ff37b4aaec</elementGuidId>
+   <elementGuidId>5f79a07d-ffca-4d02-aad5-1c80cf43209a</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button[name=&quot;btnConfirm&quot;]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@name='btnConfirm']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button[name=&quot;btnConfirm&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

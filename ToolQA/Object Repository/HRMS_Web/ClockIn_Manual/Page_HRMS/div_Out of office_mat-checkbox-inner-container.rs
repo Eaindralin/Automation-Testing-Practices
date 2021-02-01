@@ -3,15 +3,15 @@
    <description></description>
    <name>div_Out of office_mat-checkbox-inner-container</name>
    <tag></tag>
-   <elementGuidId>6d20f23f-b307-4e1f-a704-e9fa1a859e6e</elementGuidId>
+   <elementGuidId>3965b6ee-70ef-457c-829d-a3c3118e58c6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>div.mat-checkbox-inner-container</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//mat-checkbox[@id='mat-checkbox-1']/label/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-checkbox-inner-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Out of office'])[6]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Out of office'])[1]/following::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

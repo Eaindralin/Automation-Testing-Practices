@@ -3,15 +3,15 @@
    <description></description>
    <name>svg_Date_mat-datepicker-toggle-default-icon_ec3484</name>
    <tag></tag>
-   <elementGuidId>8de17d0a-c94d-4d3a-9307-3067f33e94ba</elementGuidId>
+   <elementGuidId>26f508cc-43e0-4b3f-bc79-18bca96c937c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>svg.mat-datepicker-toggle-default-icon.ng-star-inserted</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.mat-datepicker-toggle-default-icon.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -91,6 +91,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[6]/preceding::*[name()='svg'][1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Time'])[1]/preceding::*[name()='svg'][1]</value>
    </webElementXpaths>
 </WebElementEntity>

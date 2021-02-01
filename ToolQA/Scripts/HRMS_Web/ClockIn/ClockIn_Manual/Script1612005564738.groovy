@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/login')
 
-WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input_HRMS_username'), 'winthein')
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input_HRMS_username'), 'haymarkyawwin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input_HRMS_password'), 'tR+yPLK5N5TO48zpsW01Kw==')
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/a_Clock in'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/p_Clock in'))
 
 WebUI.delay(2)
 
@@ -35,27 +35,29 @@ WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/svg_Date_mat-datepicker-toggle-default-icon_ec3484'))
 
-WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_30'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_1'))
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input_Time_mat-input-1'))
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/span_9'))
 
-WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input__timepicker-dial__control timepicker-_d2fe17'))
-
-WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_PM_clock-face__number clock-face__numbe_8764a5'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/span_12'))
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/button_AM'))
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/span_Ok'))
 
+WebUI.check(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_Time_mat-radio-inner-circle'))
+
+WebUI.verifyElementChecked(findTestObject('HRMS_Web/ClockIn_Manual/Page_HRMS/div_Time_mat-radio-inner-circle'), 30)
+
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/input'))
 
-WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/span_Out of office'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_Out of office'))
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/div_Out of office_mat-checkbox-inner-container'))
 
-WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/textarea_Reason_reason'), 'Work from Home')
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/textarea_Reason_reason'), 'Clock In Manual')
 
 WebUI.click(findTestObject('Object Repository/HRMS_Web/ClockIn_Manual/Page_HRMS/button_Submit'))
 

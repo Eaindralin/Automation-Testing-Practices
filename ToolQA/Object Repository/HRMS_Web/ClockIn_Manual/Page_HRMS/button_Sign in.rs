@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Sign in</name>
    <tag></tag>
-   <elementGuidId>a1116df8-3541-4cb2-8830-1e1bd6730d43</elementGuidId>
+   <elementGuidId>522bc7ea-66f6-49f0-ac2f-02de3f120a49</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary.pull-right</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.pull-right</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
