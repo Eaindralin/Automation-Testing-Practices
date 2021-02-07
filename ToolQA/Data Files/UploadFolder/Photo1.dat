@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Photo1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>349f4ac0-c8fd-44d0-b89c-766816614c5f</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>D%3A%5CUsers%5CDell%5CPictures%5CNew+folder%5Cimg_girl.jpg</data>
+   <data>D%3A%5CUsers%5CDell%5CPictures%5CNew+folder%5Cimg_chania.jpg</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Path</name>
+      <size>2</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

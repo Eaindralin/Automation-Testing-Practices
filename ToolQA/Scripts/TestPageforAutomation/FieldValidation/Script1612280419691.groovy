@@ -18,7 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-'This test case has error.'
 WebUI.navigateToUrl('https://testpages.herokuapp.com/styled/basic-javascript-validation-test.html')
 
 WebUI.setText(findTestObject('Object Repository/TestPagesforAutomation/Basic_JavaScript_Val/Page_Test Page For Basic JavaScript Validat_671058/input_Values Less Than 30 please _value'), 
@@ -26,7 +25,9 @@ WebUI.setText(findTestObject('Object Repository/TestPagesforAutomation/Basic_Jav
 
 WebUI.click(findTestObject('Object Repository/TestPagesforAutomation/Basic_JavaScript_Val/Page_Test Page For Basic JavaScript Validat_671058/input_Values Less Than 30 please _submitbutton'))
 
-WebUI.click(findTestObject('Object Repository/TestPagesforAutomation/Basic_JavaScript_Val/Page_Processed Form Details/a_Go back to the form'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('TestPagesforAutomation/AjaxJavaScript/FieldValidation/Page_Processed Form Details/a_Go back to the form'))
 
 WebUI.setText(findTestObject('Object Repository/TestPagesforAutomation/Basic_JavaScript_Val/Page_Test Page For Basic JavaScript Validat_671058/input_Values Less Than 30 please _value'), 
     '123')
