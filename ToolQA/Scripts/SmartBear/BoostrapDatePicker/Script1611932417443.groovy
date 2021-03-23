@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.seleniumeasy.com/test/bootstrap-date-picker-demo.html')
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/span_Select Date_input-group-addon'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for Bootstrap Date picker/input_Select Date_form-control'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/td_29'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/td_3'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/input_Select Date_form-control'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/input_Select Date_form-control'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/td_27'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/td_4'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/input_To_form-control'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/input_To_form-control'))
 
-WebUI.click(findTestObject('Object Repository/SmartBear/BoostrapDatePicker/Page_Selenium Easy - Best Demo website for _41915c/td_30'))
+WebUI.click(findTestObject('SmartBear/BoostrapDatePicker/td_6'))
 

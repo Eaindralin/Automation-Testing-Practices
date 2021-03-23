@@ -6,6 +6,7 @@
    <UUID>616c466c-1cfb-4a72-b132-ad22337a7301</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Automation_Testing\ToolQA\ToolQA.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
