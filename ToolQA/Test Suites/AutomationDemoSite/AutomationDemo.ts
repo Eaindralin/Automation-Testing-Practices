@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>SmartBear</name>
+   <name>AutomationDemo</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,23 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>97041bc2-072e-4c31-a9cc-907ffd2b20d6</testSuiteGuid>
+   <testSuiteGuid>2f140643-6ca4-4ea2-bc7f-ce28990e2316</testSuiteGuid>
    <testCaseLink>
-      <guid>1376ac88-66f0-4c1f-ad3c-c41cdcbe12d8</guid>
+      <guid>8f14b4dd-fff3-4b9c-b003-967a2707b502</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmartBear/BoostrapAlertMessage</testCaseId>
+      <testCaseId>Test Cases/AutomationDemoSite/Accordin</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3576af17-937e-43a4-a4a5-77d061be6c28</guid>
+      <guid>954bb7be-d4a8-4a86-a819-6c26e6e541a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmartBear/BoostrapDatePicker</testCaseId>
+      <testCaseId>Test Cases/AutomationDemoSite/AlertWithOK</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1e68d1e2-8e93-4d7a-ba09-428510cc0e78</guid>
+      <guid>806f2c6f-c716-4695-b075-aef807b82d16</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SmartBear/CheckboxDemo</testCaseId>
+      <testCaseId>Test Cases/AutomationDemoSite/AutoComplete</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
