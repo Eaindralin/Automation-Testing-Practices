@@ -21,10 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://test.ahtaroo.com/#/OrgStructure')
 
-WebUI.click(findTestObject('Object Repository/HRMS_Web/OrgLevel/Page_HRMS/bdi_New Level'))
+WebUI.setText(findTestObject('Object Repository/HRMS_Web/CreateEntity/Page_HRMS/input_Hide Levels_container-hrms---OrgStruc_7bbbe3'), 
+    'GBS Corporate')
 
-WebUI.setText(findTestObject('Object Repository/HRMS_Web/OrgLevel/Page_HRMS/input_Edit_container-hrms---OrgStructure--n_391788'), 
-    'Upper Level')
-
-WebUI.click(findTestObject('Object Repository/HRMS_Web/OrgLevel/Page_HRMS/span_Edit___button11-container-hrms---OrgSt_a9651a'))
+WebUI.click(findTestObject('Object Repository/HRMS_Web/CreateEntity/Page_HRMS/bdi_Add'))
 
